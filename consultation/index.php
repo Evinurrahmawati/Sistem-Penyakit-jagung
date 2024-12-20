@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once('../config/koneksi.php');
+require_once('../config/database.php');
 require_once('../includes/functions.php');
 
 $stmt = $pdo->query("SELECT * FROM gejala ORDER BY id_gejala");
